@@ -1,2 +1,6 @@
 # OpenRocketFlightController
-An open source rocket flight controller. It is designed to be installed into a rocket and then when the rocket reaches a specific altitude, then it will perform some action or ignite an E-Match 
+
+An open source rocket flight controller. It is designed to activate some functionality when a specific altitude is reached. For this current repository, the functionality activiated will be to electrically fire an E-Match. However, this can be programmed for any desirable functionality.
+
+The flight controller will use a barometric pressure sensor, and an accelerometer. Currently this is in development phase and so the sensors used will be cheaper available components. However, after development, a more suitable pressure sensor that can measure upto higher altitudes and an accelerometer that can measure upto 200G of acceleration will be used for real use.
+
